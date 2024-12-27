@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import React from 'react';
-import { Container } from '../ui/container/Container';
+import { Container } from '../shared/container/Container';
 import { FooterColumn } from './footer-column/FooterColumn';
 
 interface IProps {

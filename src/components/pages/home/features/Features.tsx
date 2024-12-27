@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from '../../../ui/container/Container';
+import { Container } from '../../../shared/container/Container';
 
 const FEATURES = [1, 2, 3];
 

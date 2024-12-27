@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container } from '../../../ui/container/Container';
-import { UiButton } from '../../../ui/button/Button';
+import { Container } from '../../../shared/container/Container';
+import { UiButton } from '../../../ui/ui-button/UiButton';
 
 export const Hero: React.FC = () => {
   return (

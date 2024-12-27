@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 import React, { useState } from 'react';
-import { UiButton } from '../ui/button/Button';
-import { Container } from '../ui/container/Container';
-import { NavLink } from '../ui/nav-link/NavLink';
+import { UiButton } from '../ui/ui-button/UiButton';
+import { Container } from '../shared/container/Container';
+import { NavLink } from '../shared/nav-link/NavLink';
 import { navItems } from './Navigation.constants';
 
 interface IProps {
