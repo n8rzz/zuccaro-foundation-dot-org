@@ -11,7 +11,7 @@ interface IProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   fullWidth?: boolean;
 }
 
-export const Button: React.FC<IProps> = (props) => {
+export const UiButton: React.FC<IProps> = (props) => {
   return (
     <button
       className={clsx(

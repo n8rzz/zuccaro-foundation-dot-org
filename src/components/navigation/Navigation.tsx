@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import React, { useState } from 'react';
-import { Button } from '../ui/button/Button';
+import { UiButton } from '../ui/button/Button';
 import { Container } from '../ui/container/Container';
 import { NavLink } from '../ui/nav-link/NavLink';
 import { navItems } from './Navigation.constants';
@@ -35,7 +35,7 @@ export const Navigation: React.FC<IProps> = (props: IProps) => {
                   {item.label}
                 </NavLink>
               ))}
-              <Button variant="primary">Get Started</Button>
+              <UiButton variant="primary">Get Started</UiButton>
             </div>
           </div>
 
@@ -68,9 +68,9 @@ export const Navigation: React.FC<IProps> = (props: IProps) => {
                   {item.label}
                 </NavLink>
               ))}
-              <Button variant="primary" fullWidth>
+              <UiButton variant="primary" fullWidth>
                 Get Started
-              </Button>
+              </UiButton>
             </div>
           </div>
         )}
