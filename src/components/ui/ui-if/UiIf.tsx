@@ -6,7 +6,7 @@ interface IProps {
   children: ReactNode;
 }
 
-export const UiIf: React.FC<IfProps> = (props: IProps) => {
+export const UiIf: React.FC<IProps> = (props: IProps) => {
   if (!props.condition) {
     return null;
   }

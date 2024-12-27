@@ -1,11 +1,6 @@
 import clsx from 'clsx';
 import React from 'react';
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary';
-  fullWidth?: boolean;
-}
-
 interface IProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary';
   fullWidth?: boolean;
